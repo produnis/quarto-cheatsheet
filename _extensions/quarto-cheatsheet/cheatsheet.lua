@@ -10,7 +10,7 @@ function replaceCheatBlock(block)
         latexCode = latexCode .. "    };\n"
         latexCode = latexCode .. "    %------------ Header ---------------------\n"
         latexCode = latexCode .. "    \\node[fancytitle, right=10pt] at (box.north west) {" .. title .. "};\n"
-        latexCode = latexCode .. " \\end{tikzpicture}\\smallskip"
+        latexCode = latexCode .. " \\end{tikzpicture}\n\\smallskip"
         
         return pandoc.RawBlock('latex', latexCode)
     else
