@@ -6,10 +6,10 @@ contributes:
   formats:
     pdf:
       documentclass: article
-      papersize: a4
-      fontsize: 12pt
       geometry: 
+        - a4paper
         - landscape
+        - bottom=78mm
       df-print: kable
       code-line-numbers: true # false
       keep-tex: false # true # false
