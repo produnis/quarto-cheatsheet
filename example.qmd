@@ -1,0 +1,12 @@
+---
+title: Quarto Cheatsheet
+format:
+   quarto-cheatsheet-pdf:
+     keep-tex: true
+---
+
+# Test
+
+:::{.foo title=Bla}
+fasel
+:::
