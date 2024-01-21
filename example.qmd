@@ -1,8 +1,7 @@
 ---
 title: Quarto Cheatsheet
 format:
-   quarto-cheatsheet-pdf:
-     keep-tex: true
+   quarto-cheatsheet-pdf
 ---
 
 # Test

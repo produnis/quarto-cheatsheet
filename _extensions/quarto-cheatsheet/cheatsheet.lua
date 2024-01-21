@@ -5,12 +5,12 @@ function replaceCheatBlock(block)
 
     if blockType == "cheat" then
         local latexCode = "\\begin{tikzpicture}\n"
-        latexCode = latexCode .. "    \\node [mybox] (box){%\n"
+        latexCode = latexCode .. "    \\node [mybox, align=left] (box){%\n"
         latexCode = latexCode .. "     " .. content .. "\n"
         latexCode = latexCode .. "    };\n"
-        latexCode = latexCode .. "    %------------ Neues Semester Header ---------------------\n"
+        latexCode = latexCode .. "    %------------ Header ---------------------\n"
         latexCode = latexCode .. "    \\node[fancytitle, right=10pt] at (box.north west) {" .. title .. "};\n"
-        latexCode = latexCode .. " \\end{tikzpicture}"
+        latexCode = latexCode .. " \\end{tikzpicture}\\smallskip"
         
         return pandoc.RawBlock('latex', latexCode)
     else
