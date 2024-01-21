@@ -6,6 +6,6 @@ format:
 
 # Test
 
-:::{.foo title=Bla}
+:::{.cheat title=Bla}
 fasel
 :::
