@@ -4,7 +4,66 @@ format:
    quarto-cheatsheet-pdf
 ---
 
-# Allgemein
+# Formeln
+
+:::{.cheat title="PQ"}
+$x = \frac{-q \pm \sqrt{q^2 - 4pq}}{2p}$
+:::
+
+
+:::{.cheat title="Pythagoras"}
+$a^2 + b^2 = c^2$
+:::
+
+
+
+:::{.cheat title="Einstein"}
+\begin{align}
+    E \underset{Einstein}{=} m \cdot c^2
+    \underset{Pythagoras}{=} m \cdot (a^2 + b^2)
+\end{align}
+:::
+
+
+
+:::{.cheat title="Maxwell"}
+\begin{subequations}
+\label{maxwell-gleichungen}
+    \begin{align}
+        \text{div }(\vec{D}) &= 4 \cdot \pi \cdot \rho
+        \label{coulomb-gesetz}\\
+        \text{rot }(\vec{H}) &= \frac{4 \cdot \pi}{c} \cdot \vec{j}
+        \label{ampere-gesetz}\\
+        \text{rot }(\vec{E}) &= - \frac{1}{c} \cdot \frac{\partial \vec{B}}{\partial t}
+        \label{faraday-gesetz-1} \\
+        \text{div }(\vec{B}) &= 0
+        \label{faraday-gesetz-2}
+    \end{align}
+\end{subequations}
+:::
+
+
+# Definitionen
+
+
+:::{.cheat title="p-Wert"}
+Der p-Wert, auch als Signifikanzniveau bekannt, ist eine statistische Kennzahl, die angibt, wie wahrscheinlich es ist, dass beobachtete Ergebnisse in einem Experiment rein zufällig sind. Ein kleiner p-Wert deutet darauf hin, dass die Daten signifikant sind und auf eine Ablehnung der Nullhypothese hindeuten können.
+:::
+
+:::{.cheat title="Standardabweichung"}
+Die Standardabweichung ist ein Maß dafür, wie weit die einzelnen Werte in einer Datensammlung im Durchschnitt vom Mittelwert abweichen.
+:::
+
+:::{.cheat title="T3"}
+Eine t3-translationale Studie bezieht sich auf Forschung, die wissenschaftliche Erkenntnisse (t1) in klinische Anwendungen (t2) überführt und schließlich in die breitere Anwendung in der Gesellschaft (t3) überträgt.
+:::
+
+# Kennzahlen
+:::{.cheat title="Abstand Erde Sonne"}
+Abstand zwischen der Erde und der Sonne und beträgt etwa 149,6 Millionen Kilometer.
+:::
+
+# Git Allgemein
 
 :::{.cheat title="Neues Git Repository"}
 Ins Verzeichnis wechseln
@@ -12,7 +71,7 @@ Ins Verzeichnis wechseln
 `git init` 
 :::
 
-## Krefeld
+## Git Krefeld
 
 :::{.cheat title="Ein neues Semester"}
 Neuen Branch anlegen:
@@ -47,3 +106,12 @@ nur bestimmten Tag pushen:
 :::
 
 
+# R
+
+:::{.cheat title="Paket installieren"}
+`install.pachages("jgsbook")`
+:::
+
+:::{.cheat title="Paket aktivieren"}
+`library(tidyverse)`
+:::

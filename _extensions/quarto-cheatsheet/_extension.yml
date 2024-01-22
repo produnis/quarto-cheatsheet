@@ -16,6 +16,10 @@ contributes:
       lang: de
       date-format: "DD.MM.YYYY"
       linkcolor: black
+      nodecolor: "185191"  # HTML color only
+      linecolor: "185191"  # HTML color only
+      headcolor: "FFFFFF"  # HTML color only
+      textcolor: "000000"  # HTML color only
       include-in-header: in-header.tex   # header
       template-partials: 
         - before-body.tex
