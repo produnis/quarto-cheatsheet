@@ -7,37 +7,44 @@ format:
 # Allgemein
 
 :::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
+Ins Verzeichnis wechseln
+
+`git init` 
 :::
 
 ## Krefeld
 
 :::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
+Neuen Branch anlegen:
+
+`git checkout -b SoSe2024`
+
+`git push --set-upstream origin SoSe2024`
 :::
 
 
 
 :::{.cheat title="Semester in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
+`git checkout main`
+
+`git merge SoSe2024`
 :::
 
 :::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
 :::
 
 :::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
+alle Tags pushen:
 
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
+`git push origin --tags`
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
 :::
-
-
-
-
-
 
 
 
@@ -46,350 +53,44 @@ nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
 # Allgemein
 
 :::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
+Ins Verzeichnis wechseln
+
+`git init` 
 :::
 
 ## Krefeld
 
 :::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
+Neuen Branch anlegen:
 
+`git checkout -b SoSe2024`
 
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
-:::
-
-
-
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
-:::
-
-:::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
-:::
-
-:::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
-
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
-:::
-
-
-
-
-
-
-
-
-
-
-# Allgemein
-
-:::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
-:::
-
-## Krefeld
-
-:::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
+`git push --set-upstream origin SoSe2024`
 :::
 
 
 
 :::{.cheat title="Semester in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
+`git checkout main`
+
+`git merge SoSe2024`
 :::
 
 :::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
 :::
 
 :::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
+alle Tags pushen:
 
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
+`git push origin --tags`
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
 :::
-
-
-
-
-
-
 
 
 
@@ -397,38 +98,44 @@ nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
 # Allgemein
 
 :::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
+Ins Verzeichnis wechseln
+
+`git init` 
 :::
 
 ## Krefeld
 
 :::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
+Neuen Branch anlegen:
+
+`git checkout -b SoSe2024`
+
+`git push --set-upstream origin SoSe2024`
 :::
 
 
 
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
+:::{.cheat title="Semester in \\texttt{main} mergen"}
+`git checkout main`
+
+`git merge SoSe2024`
 :::
 
 :::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
 :::
 
 :::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
+alle Tags pushen:
 
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
+`git push origin --tags`
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
 :::
-
-
-
-
-
-
 
 
 
@@ -436,38 +143,44 @@ nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
 # Allgemein
 
 :::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
+Ins Verzeichnis wechseln
+
+`git init` 
 :::
 
 ## Krefeld
 
 :::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
+Neuen Branch anlegen:
+
+`git checkout -b SoSe2024`
+
+`git push --set-upstream origin SoSe2024`
 :::
 
 
 
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
+:::{.cheat title="Semester in \\texttt{main} mergen"}
+`git checkout main`
+
+`git merge SoSe2024`
 :::
 
 :::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
 :::
 
 :::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
+alle Tags pushen:
 
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
+`git push origin --tags`
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
 :::
-
-
-
-
-
-
 
 
 
@@ -475,39 +188,91 @@ nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
 # Allgemein
 
 :::{.cheat title="Neues Git Repository"}
-Ins Verzeichnis wechseln\\\\\\texttt{git init}
+Ins Verzeichnis wechseln
+
+`git init` 
 :::
 
 ## Krefeld
 
 :::{.cheat title="Ein neues Semester"}
-Neuen Branch anlegen:\\\\\\texttt{git checkout -b SoSe2024}\\\\
-\\texttt{git push --set-upstream origin SoSe2024}
+Neuen Branch anlegen:
+
+`git checkout -b SoSe2024`
+
+`git push --set-upstream origin SoSe2024`
 :::
 
 
 
-:::{.cheat title="Semester nach Abschluss in \\texttt{main} mergen"}
-\\texttt{git checkout main}\\\\
-\\texttt{git merge SoSe2024}
+:::{.cheat title="Semester in \\texttt{main} mergen"}
+`git checkout main`
+
+`git merge SoSe2024`
 :::
 
 :::{.cheat title="Abgeschlossene Semester taggen"}
-Tag setzen:\\\\\\texttt{git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
 :::
 
 :::{.cheat title="Tags auf den Server übertragen"}
-alle Tags pushen:\\\\\\smallskip\\texttt{git push origin --tags} \\\\
+alle Tags pushen:
 
-nur bestimmten Tag pushen:\\\\\\texttt{git push origin SoSe24}
+`git push origin --tags`
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
 :::
 
 
 
 
+# Allgemein
+
+:::{.cheat title="Neues Git Repository"}
+Ins Verzeichnis wechseln
+
+`git init` 
+:::
+
+## Krefeld
+
+:::{.cheat title="Ein neues Semester"}
+Neuen Branch anlegen:
+
+`git checkout -b SoSe2024`
+
+`git push --set-upstream origin SoSe2024`
+:::
 
 
 
+:::{.cheat title="Semester in \\texttt{main} mergen"}
+`git checkout main`
+
+`git merge SoSe2024`
+:::
+
+:::{.cheat title="Abgeschlossene Semester taggen"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
+:::
+
+:::{.cheat title="Tags auf den Server übertragen"}
+alle Tags pushen:
+
+`git push origin --tags`
+
+
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
+:::
 
 
 

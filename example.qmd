@@ -4,8 +4,46 @@ format:
    quarto-cheatsheet-pdf
 ---
 
-# Test
+# Allgemein
 
-:::{.cheat title=Bla}
-fasel
+:::{.cheat title="Neues Git Repository"}
+Ins Verzeichnis wechseln
+
+`git init` 
 :::
+
+## Krefeld
+
+:::{.cheat title="Ein neues Semester"}
+Neuen Branch anlegen:
+
+`git checkout -b SoSe2024`
+
+`git push --set-upstream origin SoSe2024`
+:::
+
+
+
+:::{.cheat title="Semester in \\texttt{main} mergen"}
+`git checkout main`
+
+`git merge SoSe2024`
+:::
+
+:::{.cheat title="Abgeschlossene Semester taggen"}
+Tag setzen:
+
+`git tag -a SoSe24 -m "Meine Lehre im Sommersemester 2024"`
+:::
+
+:::{.cheat title="Tags auf den Server übertragen"}
+alle Tags pushen:
+
+`git push origin --tags`
+
+nur bestimmten Tag pushen:
+
+`git push origin SoSe24`
+:::
+
+

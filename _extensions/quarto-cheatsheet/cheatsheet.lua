@@ -1,24 +1,34 @@
+function generateCheatBlockLatex(block)
+    local title = pandoc.utils.stringify(block.attributes["title"])
+    
+    -- create a small Pandoc-Dokument with block.content
+    local pandocDocument = pandoc.Pandoc(block.content, {})
+
+    -- use pandoc.write to convert into LaTeX
+    local latexContent = pandoc.write(pandocDocument, "latex")
+
+    local latexCode = "\\begin{tikzpicture}\n"
+    latexCode = latexCode .. "    \\node [mybox] (box){%\n"
+    latexCode = latexCode .. "     " .. latexContent .. "\n"
+    latexCode = latexCode .. "    };\n"
+    latexCode = latexCode .. "    %------------ Neues Semester Header ---------------------\n"
+    latexCode = latexCode .. "    \\node[fancytitle, right=10pt] at (box.north west) {" .. title .. "};\n"
+    latexCode = latexCode .. " \\end{tikzpicture}"
+
+    return pandoc.RawBlock('latex', latexCode)
+end
+
 function replaceCheatBlock(block)
     local blockType = block.classes[1]
-    local title = pandoc.utils.stringify(block.attributes["title"])
-    local content = pandoc.utils.stringify(block.content)
 
     if blockType == "cheat" then
-        local latexCode = "\\begin{tikzpicture}\n"
-        latexCode = latexCode .. "    \\node [mybox, align=left] (box){%\n"
-        latexCode = latexCode .. "     " .. content .. "\n"
-        latexCode = latexCode .. "    };\n"
-        latexCode = latexCode .. "    %------------ Header ---------------------\n"
-        latexCode = latexCode .. "    \\node[fancytitle, right=10pt] at (box.north west) {" .. title .. "};\n"
-        latexCode = latexCode .. " \\end{tikzpicture}\n\\smallskip"
-        
-        return pandoc.RawBlock('latex', latexCode)
+        return generateCheatBlockLatex(block)
     else
         return block
     end
 end
 
--- Füge den Filter zu Pandoc hinzu
+-- add filter to Pandoc
 return {
     { Div = replaceCheatBlock }
 }
