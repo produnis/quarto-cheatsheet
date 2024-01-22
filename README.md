@@ -4,8 +4,16 @@ This is a simple quarto extension to create cheat sheets as PDF files.
 
 ## Installation
 
+Add to existing project:
+
 ```
 $ quarto add produnis/quarto-cheatsheet
+```
+
+Use as template for a new project:
+
+```
+$ quarto use template produnis/quarto-cheatsheet
 ```
 
 ## Usage
